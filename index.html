@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="nanocrafters">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+<title>Team Nanocrafters Wiki - Materialize</title>
+
+<!-- CSS  -->
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<!--<link href="css/animations.css" rel="stylesheet" type="text/css">-->
+<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body ng-controller="MainCtrl as main">
+<nav role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#/"
+            class=""><img style="width:172px; background:white" src="/img/nanoCraftersLogo_trans.png"  /></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="#/back">Background</a></li>
+            <li><a href="#/proj">Project Design</a></li>
+            <li><a href="#/expt">Experiments</a></li>
+            <li><a href="#/disc">Simulation</a></li>
+            <li><a href="#/ackn">Acknowledgement</a></li>
+            <li><a href="#/team">Team</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+            <li><a href="#/back">Background</a></li>
+            <li><a href="#/proj">Project Design</a></li>
+            <li><a href="#/expt">Experiments</a></li>
+            <li><a href="#/disc">Simulation</a></li>
+            <li><a href="#/ackn">Acknowledgement</a></li>
+            <li><a href="#/team">Team</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+<div class="no-pad-bot" id="index-banner">
+    <div class="container view-animate-container" id="contents">
+        <div ng-view class="view-animate">
+        </div>
+        
+    </div>
+</div>
+
+<footer class="page-footer light-bio-red">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Team Bio</h5>
+                <p class="grey-text text-lighten-4">We are a group of undergrads
+                working on this awesome project.</p>
+
+
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li><a class="white-text" href="#/">Home</a></li>
+                    <li><a class="white-text" href="#/expt">Experiments</a></li>
+                    <li><a class="white-text" href="https://www.youtube.com/channel/UCF7gcyq9n0hKuMxCsQXRZhg">Youtube</a></li>
+                    <li><a class="white-text" href="#/team">Team</a></li>
+                </ul>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Connect</h5>
+                <ul>
+                    <li><a class="white-text" href="mailto:nanocrafters.bits@gmail.com">Mail</a></li>
+                    <li><a class="white-text" href="http://biomod.net">About BIOMOD</a></li>
+                    <li><a class="white-text" href="#/ackn">Acknowledgement</a></li>
+                    <li><a class="white-text" href="https://www.facebook.com/nanocrafters">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        </div>
+    </div>
+</footer>
+
+
+<!--  Scripts-->
+<script src="/js/jquery-2.1.1.min.js"></script>
+<script src="/js/materialize.js"></script>
+<script src="js/d3.min.js"></script>
+<script src="/js/angular.min.js"></script>
+<script src="/js/angular-route.js"></script>
+<script src="/js/angular-animate.js"></script>
+<script type="text/javascript">
+    angular.element(document.getElementsByTagName('head')).append(angular.element('<base href="' + window.location.pathname + '" />'));
+  </script>
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/javascript"  src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="/js/init.js"></script>
+</body>
+</html>
