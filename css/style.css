@@ -1,0 +1,226 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+/** colors by http://paletton.com/
+ * blue -- 77A4C2, 4A7EA0, 30698E, 17557D, 0A4368, 043352, 012136, 00121E, 000406
+ * red -- FFC0C0, FF9797, E36464, C13939, A11C1C, 7D0404, 520000, 300000, 150000
+ */
+body,ul,a,p {
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 1.25rem !important;
+}
+
+body
+{
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.light-bio-blue {
+    background-color: #0A4368 !important;
+}
+.light-bio-blue-text {
+    color: #0A4368 !important;
+}
+.light-bio-red { background-color: #A11C1C !important;
+}
+.light-bio-red-text {
+    color: #A11C1C !important; } 
+
+.light-bio-blue.lighten-4 {
+  background-color: #77A4C2 !important; }
+
+.light-bio-blue-text.text-lighten-4 {
+  color: #77A4C2 !important; }
+
+.light-bio-blue.lighten-3 {
+  background-color: #4A7EA0 !important; }
+
+.light-bio-blue-text.text-lighten-3 {
+  color: #4A7EA0 !important; }
+
+.light-bio-blue.lighten-2 {
+  background-color: #30698E !important; }
+
+.light-bio-blue-text.text-lighten-2 {
+  color: #30698E !important; }
+
+.light-bio-blue.lighten-1 {
+  background-color: #17557D !important; }
+
+.light-bio-blue-text.text-lighten-1 {
+  color: #17557D !important; }
+
+.light-bio-blue.darken-1 {
+  background-color: #043352 !important; }
+
+.light-bio-blue-text.text-darken-1 {
+  color: #043352 !important; }
+
+.light-bio-blue.darken-2 {
+  background-color: #012136 !important; }
+
+.light-bio-blue-text.text-darken-2 {
+  color: #012136 !important; }
+
+.light-bio-blue.darken-3 {
+  background-color: #00121E !important; }
+
+.light-bio-blue-text.text-darken-3 {
+  color: #00121E !important; }
+
+.light-bio-blue.darken-4 {
+  background-color: #000406 !important; }
+
+.light-bio-blue-text.text-darken-4 {
+  color: #000406 !important; }
+
+.light-bio-red.lighten-4 {
+  background-color: #FFC0C0 !important; }
+
+.light-bio-red-text.text-lighten-4 {
+  color: #FFC0C0 !important; }
+
+.light-bio-red.lighten-3 {
+  background-color: #FF9797 !important; }
+
+.light-bio-red-text.text-lighten-3 {
+  color: #FF9797 !important; }
+
+.light-bio-red.lighten-2 {
+  background-color: #E36464 !important; }
+
+.light-bio-red-text.text-lighten-2 {
+  color: #E36464 !important; }
+
+.light-bio-red.lighten-1 {
+  background-color: #C13939 !important; }
+
+.light-bio-red-text.text-lighten-1 {
+  color: #C13939 !important; }
+
+.light-bio-red.darken-1 {
+  background-color: #7D0404 !important; }
+
+.light-bio-red-text.text-darken-1 {
+  color: #7D0404 !important; }
+
+.light-bio-red.darken-2 {
+  background-color: #520000 !important; }
+
+.light-bio-red-text.text-darken-2 {
+  color: #520000 !important; }
+
+.light-bio-red.darken-3 {
+  background-color: #300000 !important; }
+
+.light-bio-red-text.text-darken-3 {
+  color: #300000 !important; }
+
+.light-bio-red.darken-4 {
+  background-color: #150000 !important; }
+
+.light-bio-red-text.text-darken-4 {
+  color: #150000 !important; }
+
+nav {
+    background-color:black !important;
+    box-shadow: none !important;
+}
+
+nav li a {
+    color: #E0E0E0 !important;
+}
+
+nav ul li:hover {
+    background-color:#252525;
+}
+
+img {
+    z-index:100;
+}
+
+.tab a {
+    color: #ABABAB;
+    cursor: pointer;
+}
+
+.expts {
+    overflow: hidden;
+    position: relative;
+}
+
+.tab-content {
+
+    position: relative;
+
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.tab-content .expt{
+    flex-grow: 1;
+}
+
+.background {
+    background: #004358;
+    color: #0043
+}
+.projectdesign {
+    background: #1F8A70;
+}
+.experiments {
+    background: #9AB90A;
+}
+.simulation{
+    background: #FFE11A;
+    color: #696969 !important;
+}
+.acknowledgement {
+    background: red;
+}
+.team {
+    background: #FD7400;
+}
+.expt ul li,ul li {
+    list-style-type: initial !important;
+}
+.expt ul ol li,ul ol li {
+    list-style-type: decimal !important;
+}
+.expt ol li,ol li {
+    list-style-type: decimal !important;
+}
+
+.divider.colo {
+    background-color: #0089ec !important;
+}
+.expts h3 {
+    color: #FF5722;
+    font-size: 2.62rem;
+    cursor: pointer;
+}
+
+nav ul li, footer ul li {
+    list-style-type: none !important;
+}
+
+html {
+    background-image:url(../img/website-bg.png);
+    background-attachment: fixed;
+}
+#index-banner .container {
+    background: rgba(255,255,255,0.9);
+}
